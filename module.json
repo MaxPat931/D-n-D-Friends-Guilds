@@ -1,6 +1,6 @@
 {
-    "name": "d-and-d-friends",
-    "title": "D-n-D Friends Companion Module",
+    "name": "d-n-d-friends",
+    "title": "D-n-D Friends Guilds",
     "description": "This module was built to supplement the DMs in the D-n-D Friends Discord server",
     "version": "v1.0",
     "minimumCoreVersion": "0.7.0",
