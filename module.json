@@ -1,0 +1,54 @@
+{
+    "name": "d-and-d-friends",
+    "title": "D-n-D Friends Companion Module",
+    "description": "This module was built to supplement the DMs in the D-n-D Friends Discord server",
+    "version": "v1.0",
+    "minimumCoreVersion": "0.7.0",
+    "author": "MaxPat",
+    "manifest": "",
+    "download": "",
+    "packs": [
+        {
+            "name": "guildfeatures",
+            "label": "Guild Features",
+            "path": "packs/guildfeatures.db",
+            "entity": "Item",
+            "package": "d-and-d-friends"
+        },
+        {
+            "name": "journals",
+            "label": "Journal Entries",
+            "path": "packs/journal.db",
+            "entity": "JournalEntry",
+            "package": "d-and-d-friends"
+        },
+        {
+            "name": "scenes",
+            "label": "Scenes",
+            "path": "packs/scenes.db",
+            "entity": "Scene",
+            "package": "d-and-d-friends"
+        },
+        {
+            "name": "macros",
+            "label": "Macros",
+            "path": "packs/macros.db",
+            "entity": "Macro",
+            "package": "d-and-d-friends"
+        },
+        {
+            "name": "tables",
+            "label": "Roll Tables",
+            "path": "packs/tables.db",
+            "entity": "RollTable",
+            "package": "d-and-d-friends"
+        },
+        {
+            "name": "playlists",
+            "label": "Playlists",
+            "path": "packs/playlists.db",
+            "entity": "Playlist",
+            "package": "d-and-d-friends"
+        }
+    ],
+}
