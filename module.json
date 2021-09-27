@@ -5,8 +5,8 @@
     "version": "v1.0",
     "minimumCoreVersion": "0.7.0",
     "author": "MaxPat",
-    "manifest": "https://github.com/MaxPat931/D-n-D-Friends-GuildsPlus/releases/download/v0.1/module.json",
-    "download": "https://github.com/MaxPat931/D-n-D-Friends-GuildsPlus/releases/download/v0.1/D-n-D-Friends-GuildsPlus.zip",
+    "manifest": "https://github.com/MaxPat931/D-n-D-Friends-GuildsPlus/releases/download/latest/module.json",
+    "download": "https://github.com/MaxPat931/D-n-D-Friends-GuildsPlus/releases/download/v0.2/D-n-D-Friends-GuildsPlus.zip",
     "packs": [
         {
             "name": "guildfeatures",
