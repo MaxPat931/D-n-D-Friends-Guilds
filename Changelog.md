@@ -1,7 +1,7 @@
-##1.4
+## 1.4
 Removed Chosen of Hydaelyn, Sigil Scouts, University
 
-##1.3
+## 1.3
 Fixed links from main Guild feature to each item
 
 ## 1.2
