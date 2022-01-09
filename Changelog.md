@@ -1,3 +1,7 @@
+## 1.5
+Removed Roaring Legacy
+Added Items compendium - Legendary Saving Throws added
+
 ## 1.4
 Removed Chosen of Hydaelyn, Sigil Scouts, University
 
