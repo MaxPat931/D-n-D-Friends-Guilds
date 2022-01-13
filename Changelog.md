@@ -1,3 +1,6 @@
+## 1.6
+Added Royal Fortuna
+
 ## 1.5
 Removed Roaring Legacy
 Added Items compendium - Legendary Saving Throws added
