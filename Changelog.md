@@ -1,3 +1,8 @@
+##1.7
+Updated all Guild Features to have collapsible text sections
+Added a macro to replace a selected Actor's guild features with the latest versions from the compendium (names must match)
+Updated features that allow for rerolling saves, checks, and/or attack rolls
+
 ## 1.6
 Added Royal Fortuna
 
