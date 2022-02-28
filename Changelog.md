@@ -1,3 +1,7 @@
+## 1.8
+The Time Cops have entered the timeline
+Sigil landing page scene added too
+
 ## 1.7
 Updated all Guild Features to have collapsible text sections, inline die rolls, links to SRD spells
 Added a macro to replace a selected Actor's guild features with the latest versions from the compendium (names must match)
