@@ -1,3 +1,8 @@
+## 1.9 
+House of Wisdom has appeared from the archives
+Bug Reporter support
+Sigil scene properly added
+
 ## 1.8
 The Time Cops have entered the timeline
 Sigil landing page scene added too
