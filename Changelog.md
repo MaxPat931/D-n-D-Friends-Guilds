@@ -1,3 +1,9 @@
+## 2.0
+Sigil scene update
+Update to "Updage Actor's Guild Items" macro permissions
+New "Open Guild Features Compendium" macro
+New "Welcome Message" will show for players on world load
+
 ## 1.9 
 House of Wisdom has appeared from the archives
 Bug Reporter support
