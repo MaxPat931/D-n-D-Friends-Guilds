@@ -64,7 +64,7 @@
     "dependencies": [
         {
             "name": "compendium-folders",
-            "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/082-update/module.json"
+            "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/09x-update/module.json"
         }
     ],
       "bugs": "https://github.com/MaxPat931/D-n-D-Friends-Guilds/issues",
