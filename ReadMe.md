@@ -15,4 +15,5 @@ This module includes:
 -Macros
 
 -Items 
+
   -- zZz's Legendary Resistances
