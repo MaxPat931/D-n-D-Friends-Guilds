@@ -3,6 +3,7 @@ Hello!
 I put this module together to hopefully make running games for the server just a little bit easier. 
 
 This module includes:
+
 -Guild Features
 
 -Journals for MIT links
@@ -13,4 +14,5 @@ This module includes:
 
 -Macros
 
--Items - zZz's Legendary Resistances
+-Items 
+  -- zZz's Legendary Resistances
