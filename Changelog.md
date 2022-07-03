@@ -1,3 +1,6 @@
+## 2.1
+Fairytale Protection Service features added
+
 ## 2.0
 Sigil scene update
 Update to "Updage Actor's Guild Items" macro permissions
