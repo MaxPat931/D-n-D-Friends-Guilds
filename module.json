@@ -1,4 +1,5 @@
 {
+    "name": "d-n-d-friends-guilds",
     "id": "d-n-d-friends-guilds",
     "title": "D-n-D Friends Guilds",
     "description": "This module was built to supplement the DMs in the D-n-D Friends Discord server",
@@ -82,7 +83,7 @@
               "compatibility": {
                 "minimum": "1.5.7",
                 "verified": "1.6.3",
-                "maximum": "2.0.0"
+                "maximum": "2.0.0-alpha2"
                 }
             }],
     "requires": [{
