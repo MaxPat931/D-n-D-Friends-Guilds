@@ -20,49 +20,56 @@
             "label": "Guild Features",
             "path": "packs/guildfeatures.db",
             "entity": "Item",
-            "package": "d-and-d-friends"
+            "package": "d-and-d-friends",
+            "system": "dnd5e"
         },
         {
             "name": "dndfriendsitems",
             "label": "DnD Friends Items",
             "path": "packs/items.db",
             "entity": "Item",
-            "package": "d-and-d-friends"
+            "package": "d-and-d-friends",
+            "system": "dnd5e"
         },
         {
             "name": "journals",
             "label": "Journal Entries",
             "path": "packs/journal.db",
             "entity": "JournalEntry",
-            "package": "d-and-d-friends"
+            "package": "d-and-d-friends",
+            "system": "dnd5e"
         },
         {
             "name": "scenes",
             "label": "Scenes",
             "path": "packs/scenes.db",
             "entity": "Scene",
-            "package": "d-and-d-friends"
+            "package": "d-and-d-friends",
+            "system": "dnd5e"
         },
         {
             "name": "macros",
             "label": "Macros",
             "path": "packs/macros.db",
             "entity": "Macro",
-            "package": "d-and-d-friends"
+            "package": "d-and-d-friends",
+            "system": "dnd5e"
         },
         {
             "name": "tables",
             "label": "Roll Tables",
             "path": "packs/tables.db",
             "entity": "RollTable",
-            "package": "d-and-d-friends"
+            "package": "d-and-d-friends",
+            "system": "dnd5e"
         },
         {
             "name": "playlists",
             "label": "Playlists",
             "path": "packs/playlists.db",
             "entity": "Playlist",
-            "package": "d-and-d-friends"
+            "package": "d-and-d-friends",
+            "system": "dnd5e"
         }
     ],
     "esmodules": [ 
@@ -71,7 +78,7 @@
     "relationships": {
         "systems": [{
             "id": "dnd5e",
-            "manifest": "URLS",
+            "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
               "compatibility": {
                 "minimum": "1.5.7",
                 "verified": "1.6.3",
