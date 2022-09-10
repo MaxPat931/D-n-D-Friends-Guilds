@@ -6,7 +6,7 @@
     "version": "2.2",
     "compatibility": {
         "minimum": "0.7.0",
-        "verified": "9.269",
+        "verified": "10",
         "maximum": "10"
     },
     "authors": [{
@@ -21,6 +21,7 @@
             "label": "Guild Features",
             "path": "packs/guildfeatures.db",
             "entity": "Item",
+            "type": "Item",
             "package": "d-and-d-friends",
             "system": "dnd5e"
         },
@@ -29,6 +30,7 @@
             "label": "DnD Friends Items",
             "path": "packs/items.db",
             "entity": "Item",
+            "type": "Item",
             "package": "d-and-d-friends",
             "system": "dnd5e"
         },
@@ -37,6 +39,7 @@
             "label": "Journal Entries",
             "path": "packs/journal.db",
             "entity": "JournalEntry",
+            "type": "JournalEntry",
             "package": "d-and-d-friends",
             "system": "dnd5e"
         },
@@ -45,6 +48,7 @@
             "label": "Scenes",
             "path": "packs/scenes.db",
             "entity": "Scene",
+            "type": "Scene",
             "package": "d-and-d-friends",
             "system": "dnd5e"
         },
@@ -53,6 +57,7 @@
             "label": "Macros",
             "path": "packs/macros.db",
             "entity": "Macro",
+            "type": "Macro",
             "package": "d-and-d-friends",
             "system": "dnd5e"
         },
@@ -61,6 +66,7 @@
             "label": "Roll Tables",
             "path": "packs/tables.db",
             "entity": "RollTable",
+            "type": "RollTable",
             "package": "d-and-d-friends",
             "system": "dnd5e"
         },
@@ -69,6 +75,7 @@
             "label": "Playlists",
             "path": "packs/playlists.db",
             "entity": "Playlist",
+            "type": "Playlist",
             "package": "d-and-d-friends",
             "system": "dnd5e"
         }
@@ -82,8 +89,7 @@
             "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
               "compatibility": {
                 "minimum": "1.5.7",
-                "verified": "1.6.3",
-                "maximum": "2.0.0-alpha2"
+                "verified": "1.6.3"
                 }
             }],
     "requires": [{
