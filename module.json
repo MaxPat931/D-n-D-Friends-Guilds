@@ -4,6 +4,8 @@
     "title": "D-n-D Friends Guilds",
     "description": "This module was built to supplement the DMs in the D-n-D Friends Discord server",
     "version": "2.2",
+    "minimumCoreVersion": 9,
+    "compatibleCoreVersion": 9,
     "compatibility": {
         "minimum": "0.7.0",
         "verified": "10",
