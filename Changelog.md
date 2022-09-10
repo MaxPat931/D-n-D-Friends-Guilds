@@ -1,3 +1,6 @@
+## 2.2
+v10 compatibility - no major updates
+
 ## 2.1
 Fairytale Protection Service features added
 
