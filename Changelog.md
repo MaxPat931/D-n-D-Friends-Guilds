@@ -1,3 +1,6 @@
+## 2.3
+Draconic Conclave features added
+
 ## 2.2
 v10 compatibility - no major updates
 
