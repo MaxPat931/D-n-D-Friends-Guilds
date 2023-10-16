@@ -3,7 +3,7 @@
     "id": "d-n-d-friends-guilds",
     "title": "D-n-D Friends Guilds",
     "description": "This module was built to supplement the DMs in the D-n-D Friends Discord server",
-    "version": "2.3",
+    "version": "2.4",
     "minimumCoreVersion": 9,
     "compatibleCoreVersion": 9,
     "compatibility": {
@@ -107,7 +107,7 @@
             "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
               "compatibility": {
                 "minimum": "1.5.7",
-                "verified": "1.6.3"
+                "verified": "2.3"
                 }
             }]
     },
