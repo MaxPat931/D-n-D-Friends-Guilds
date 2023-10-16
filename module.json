@@ -82,6 +82,22 @@
             "system": "dnd5e"
         }
     ],
+     "packFolders": [
+        {
+          "name": "DnD Friends",
+          "sorting": "m",
+          "color": "#e0c200",
+          "packs": [
+            "guildfeatures",
+            "dndfriendsitems",
+              "journals",
+              "scenes",
+              "macros",
+              "tables",
+              "playlists"
+          ],
+        }
+      ],
     "esmodules": [ 
         "./welcomemessage.js" 
     ],
