@@ -1,22 +1,21 @@
 {
-  "id": "d-n-d-friends-guilds",
-  "title": "D-n-D Friends Guilds",
-  "description": "This module was built to supplement the DMs in the D-n-D Friends Discord server",
-  "version": "2.4",
-  "compatibility": {
-    "minimum": "11",
-    "verified": "11",
-    "maximum": "11"
-  },
-  "authors": [
-    {
-      "name": "MaxPat",
-      "discord": "maxpat#7936",
-      "flags": {}
-    }
-  ],
-  "manifest": "https://github.com/MaxPat931/D-n-D-Friends-Guilds/releases/latest/download/module.json",
-  "download": "https://github.com/MaxPat931/D-n-D-Friends-Guilds/releases/download/v2.4/module.zip",
+    "name": "d-n-d-friends-guilds",
+    "id": "d-n-d-friends-guilds",
+    "title": "D-n-D Friends Guilds",
+    "description": "This module was built to supplement the DMs in the D-n-D Friends Discord server",
+    "version": "2.5",
+    "compatibility": {
+        "minimum": "11",
+        "verified": "11",
+        "maximum": ""
+    },
+    "authors": [{
+        "name": "MaxPat",
+        "discord": "maxpat#7936"
+    }],
+    "url": "#{URL}#",
+    "manifest": "#{MANIFEST}#",
+    "download": "#{DOWNLOAD}#",
   "media": [
     {
       "type": "setup",
@@ -146,23 +145,13 @@
         "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
         "compatibility": {
           "minimum": "1.5.7",
-          "verified": "1.6.3"
+          "verified": "2.3"
         },
         "type": "system"
       }
     ],
-    "requires": [
-      {
-        "id": "compendium-folders",
-        "type": "module",
-        "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/09x-update/module.json",
-        "compatibility": {
-          "verified": "2.4.6"
-        }
-      }
-    ]
-  },
-  "bugs": "https://github.com/MaxPat931/D-n-D-Friends-Guilds/issues",
+    },
+      "bugs": "https://github.com/MaxPat931/D-n-D-Friends-Guilds/issues",
   "flags": {
     "allowBugReporter": true
   }

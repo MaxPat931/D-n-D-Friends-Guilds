@@ -1,3 +1,9 @@
+## 2.5
+The Harpers and Office of Arcane Inquiry
+
+## 2.4
+House of Wisdom Update
+
 ## 2.3
 Draconic Conclave features added
 
