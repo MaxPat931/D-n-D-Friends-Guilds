@@ -4,11 +4,9 @@
     "title": "D-n-D Friends Guilds",
     "description": "This module was built to supplement the DMs in the D-n-D Friends Discord server",
     "version": "2.5",
-    "minimumCoreVersion": 9,
-    "compatibleCoreVersion": 9,
     "compatibility": {
-        "minimum": "0.7.0",
-        "verified": "10",
+        "minimum": "11",
+        "verified": "11",
         "maximum": ""
     },
     "authors": [{
@@ -18,99 +16,140 @@
     "url": "#{URL}#",
     "manifest": "#{MANIFEST}#",
     "download": "#{DOWNLOAD}#",
-    "packs": [
+  "media": [
+    {
+      "type": "setup",
+      "url": "modules/d-n-d-friends-guilds/images/dndf.webp",
+      "loop": false,
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "guildfeatures",
+      "label": "Guild Features",
+      "path": "packs/guildfeatures.db",
+      "type": "Item",
+      "system": "dnd5e",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "dndfriendsitems",
+      "label": "DnD Friends Items",
+      "path": "packs/items.db",
+      "type": "Item",
+      "system": "dnd5e",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "scenes",
+      "label": "Scenes",
+      "path": "packs/scenes.db",
+      "type": "Scene",
+      "system": "dnd5e",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "macros",
+      "label": "Macros",
+      "path": "packs/macros.db",
+      "type": "Macro",
+      "system": "dnd5e",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "journals",
+      "label": "Journal Entries",
+      "path": "packs/journal.db",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "tables",
+      "label": "Roll Tables",
+      "path": "packs/tables.db",
+      "type": "RollTable",
+      "system": "dnd5e",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "playlists",
+      "label": "Playlists",
+      "path": "packs/playlists.db",
+      "type": "Playlist",
+      "system": "dnd5e",
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "DnD Friends Guild Features",
+      "sorting": "m",
+      "color": "#a1a32e",
+      "packs": [
+        "guildfeatures"
+      ],
+      "folders": [
         {
-            "name": "guildfeatures",
-            "label": "Guild Features",
-            "path": "packs/guildfeatures.db",
-            "entity": "Item",
-            "type": "Item",
-            "package": "d-and-d-friends",
-            "system": "dnd5e"
-        },
-        {
-            "name": "dndfriendsitems",
-            "label": "DnD Friends Items",
-            "path": "packs/items.db",
-            "entity": "Item",
-            "type": "Item",
-            "package": "d-and-d-friends",
-            "system": "dnd5e"
-        },
-        {
-            "name": "journals",
-            "label": "Journal Entries",
-            "path": "packs/journal.db",
-            "entity": "JournalEntry",
-            "type": "JournalEntry",
-            "package": "d-and-d-friends",
-            "system": "dnd5e"
-        },
-        {
-            "name": "scenes",
-            "label": "Scenes",
-            "path": "packs/scenes.db",
-            "entity": "Scene",
-            "type": "Scene",
-            "package": "d-and-d-friends",
-            "system": "dnd5e"
-        },
-        {
-            "name": "macros",
-            "label": "Macros",
-            "path": "packs/macros.db",
-            "entity": "Macro",
-            "type": "Macro",
-            "package": "d-and-d-friends",
-            "system": "dnd5e"
-        },
-        {
-            "name": "tables",
-            "label": "Roll Tables",
-            "path": "packs/tables.db",
-            "entity": "RollTable",
-            "type": "RollTable",
-            "package": "d-and-d-friends",
-            "system": "dnd5e"
-        },
-        {
-            "name": "playlists",
-            "label": "Playlists",
-            "path": "packs/playlists.db",
-            "entity": "Playlist",
-            "type": "Playlist",
-            "package": "d-and-d-friends",
-            "system": "dnd5e"
-        }
-    ],
-     "packFolders": [
-        {
-          "name": "DnD Friends",
+          "name": "Additional Packs",
           "sorting": "m",
-          "color": "#e0c200",
+          "color": "#a1a32e",
           "packs": [
-            "guildfeatures",
             "dndfriendsitems",
-              "journals",
-              "scenes",
-              "macros",
-              "tables",
-              "playlists"
+            "macros",
+            "scenes",
+            "playlists",
+            "tables",
+            "journals"
           ]
         }
-      ],
-    "esmodules": [ 
-        "./welcomemessage.js" 
+      ]
+    }
+  ],
+  "esmodules": [
+    "welcomemessage.js"
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
+        "compatibility": {
+          "minimum": "1.5.7",
+          "verified": "2.3"
+        },
+        "type": "system"
+      }
     ],
-    "relationships": {
-        "systems": [{
-            "id": "dnd5e",
-            "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
-              "compatibility": {
-                "minimum": "1.5.7",
-                "verified": "2.3"
-                }
-            }]
     },
       "bugs": "https://github.com/MaxPat931/D-n-D-Friends-Guilds/issues",
   "flags": {
