@@ -1,3 +1,6 @@
+## 2.5
+The Harpers and Office of Arcane Inquiry
+
 ## 2.4
 House of Wisdom Update
 
