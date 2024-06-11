@@ -31,6 +31,7 @@
       "path": "packs/guildfeatures.db",
       "type": "Item",
       "system": "dnd5e",
+      "banner":"modules/d-n-d-friends-guilds/images/ddfbanner.webp",
       "flags": {},
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -43,6 +44,7 @@
       "path": "packs/items.db",
       "type": "Item",
       "system": "dnd5e",
+      "banner":"modules/d-n-d-friends-guilds/images/ddfbanner.webp",
       "flags": {},
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -55,6 +57,7 @@
       "path": "packs/scenes.db",
       "type": "Scene",
       "system": "dnd5e",
+      "banner":"modules/d-n-d-friends-guilds/images/ddfbanner.webp",
       "flags": {},
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -67,6 +70,7 @@
       "path": "packs/macros.db",
       "type": "Macro",
       "system": "dnd5e",
+      "banner":"modules/d-n-d-friends-guilds/images/ddfbanner.webp",
       "flags": {},
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -79,6 +83,7 @@
       "path": "packs/journal.db",
       "type": "JournalEntry",
       "system": "dnd5e",
+      "banner":"modules/d-n-d-friends-guilds/images/ddfbanner.webp",
       "flags": {},
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -91,6 +96,7 @@
       "path": "packs/tables.db",
       "type": "RollTable",
       "system": "dnd5e",
+      "banner":"modules/d-n-d-friends-guilds/images/ddfbanner.webp",
       "flags": {},
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -103,6 +109,7 @@
       "path": "packs/playlists.db",
       "type": "Playlist",
       "system": "dnd5e",
+      "banner":"modules/d-n-d-friends-guilds/images/ddfbanner.webp",
       "flags": {},
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -112,9 +119,9 @@
   ],
   "packFolders": [
     {
-      "name": "DnD Friends Guild Features",
+      "name": "DnD Friends",
       "sorting": "m",
-      "color": "#a1a32e",
+      "color": "#e0c200",
       "packs": [
         "guildfeatures"
       ],
